@@ -1,8 +1,10 @@
-% Task 1
-Gâu gâu ẳng ẳng 
-% Task 2
-ẻng ergn 
-% Task 3
-Meo meo
+% Task 1 (Nguyen)
+
+
+% Task 2 (Nhan)
+
+
+% Task 3 (Nam)
+
 
 % Task 4
