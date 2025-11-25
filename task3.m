@@ -20,6 +20,15 @@ V_grid = V_fun(X, Y);
 Ex = -dVdx_fun(X, Y);
 Ey = -dVdy_fun(X, Y);
 
+% Fix: if Ex or Ey are scalars, expand them to match the grid size
+if isscalar(Ex)
+    Ex = Ex * ones(size(X));
+end
+
+if isscalar(Ey)
+    Ey = Ey * ones(size(Y));
+end
+
 % Compute magnitude of the electric field
 E_mag = sqrt(Ex.^2 + Ey.^2);
 
