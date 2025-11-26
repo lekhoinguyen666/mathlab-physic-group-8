@@ -1,4 +1,4 @@
-% "Importing files" by execute them 
+% "Importing files" by execute them sequentially
 % which will create usable variables in MATLAB workspace tab
 task1
 task2

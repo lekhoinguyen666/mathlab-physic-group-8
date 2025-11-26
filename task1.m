@@ -1,6 +1,7 @@
 % Nguyen
 
 % Task 1
+
 % Clear Command Window
 clc; clear; close all;
 
